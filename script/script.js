@@ -20,9 +20,6 @@ togglebtn.addEventListener('click', function(){
 closebtn.addEventListener('click', function(){
     header.style.width = ''
     header.style.transition = '0.5s'
-    for(let i = 0; i < toggleDesc.length; i++){
-        toggleDesc[i].style.display = 'none'
-    }
     togglebtn.style.display = 'flex'
     closebtn.style.display = 'none'
     if(screen.width < 480){
