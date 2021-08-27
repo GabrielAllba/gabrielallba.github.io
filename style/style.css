@@ -2,6 +2,10 @@
     font-family: 'reg-popins';
     src: url(/fonts/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: 'extrabold popins';
+    src: url(/fonts/Poppins-ExtraBold.ttf);
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -17,11 +21,13 @@ header{
     flex-direction: column;
     width: 3rem;
     height: 100%;
+    z-index: 99;
 }
 .toggle{
     display: flex;
     height: 10%;
-    background: linear-gradient(to top right, rgb(59, 179, 113), rgb(63, 206, 139));
+    background: linear-gradient(to right, rgb(245, 61, 147)
+, rgb(255, 0, 140));
     align-items: center;
     justify-content: center;
 }
@@ -36,13 +42,15 @@ nav{
     height: 90%;
     display: flex;
     align-items: center;
-    background-color: rgb(37, 37, 37);
+    background: transparent;
     overflow: hidden;
+    z-index: 99;
+    background-color: rgba(43, 43, 43, 0.582);
 }
 nav ul{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -66,7 +74,7 @@ nav ul li a span{
     display: flex;
     margin: 0 20px;
 }
-nav ul li:hover{
+nav ul li:hover {
     transition: 0.5s;
     background-color: rgb(20, 20, 20);
 }
@@ -77,11 +85,64 @@ nav ul li:hover{
         overflow: hidden;
     }
 }
-
 main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    color: white;
+    display: flex;
+    justify-content: center;
     width: 100%;
+    background-color: rgb(22, 22, 22);
     min-height: 100vh;
-    background-color:rgb(26, 26, 26);
-    
+    padding-left: 5rem;
+}
+.profile{
+    flex-direction: column;
+}
+.profile-intro, .hire-button{
+    margin-left: 3rem;
+}
+.profile-intro p{
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: rgb(196, 196, 196);
+}
+.profile-intro h1{
+    font-size: 5rem;
+    font-family: 'extrabold popins';
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+.hire-button{
+    margin-top: 2rem;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    transition: .5s;
+    border: .5px solid rgba(177, 177, 177,0);
+    cursor: pointer;
+}
+.hire-button p{
+    text-align: center;
+    width: 100%;
+    border-radius: 40px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(245, 61, 147)
+    , rgb(255, 0, 140));
+    transition: .5s;
+    padding: 10px;
+}
+.hire-button:hover{
+    border: .5px solid rgba(177, 177, 177,1);
+    transition: .5s;
+}
+.hire-button:hover p{
+    transform: translate(20%, -40%);
+    transition: .5s;
 }
