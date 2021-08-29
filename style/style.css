@@ -139,7 +139,7 @@ background: linear-gradient(to right, rgb(243, 45, 95)
     padding: 10px;
 }
 .hire-button:hover{
-    border: .5px solid rgba(177, 177, 177,1);
+    border: .5px solid rgba(177, 177, 177, 0.911);
     transition: .5s;
 }
 .hire-button:hover p{
