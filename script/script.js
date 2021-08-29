@@ -9,7 +9,7 @@ togglebtn.addEventListener('click', function(){
     header.style.transition = '0.5s'
     for(let i = 0; i < toggleDesc.length; i++){
         toggleDesc[i].style.display = 'flex'
-        toggleDesc[i].style.transition = '2s'
+        toggleDesc[i].style.transition = '.5s'
     }
     togglebtn.style.display = 'none'
     closebtn.style.display = 'flex'
