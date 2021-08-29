@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'reg-popins';
-    src: url(/fonts/Poppins-Regular.ttf);
+    src: url(../fonts/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: 'extrabold popins';
-    src: url(/fonts/Poppins-ExtraBold.ttf);
+    src: url(../fonts/Poppins-ExtraBold.ttf);
 }
 *{
     box-sizing: border-box;
