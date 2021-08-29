@@ -14,7 +14,7 @@ togglebtn.addEventListener('click', function(){
     togglebtn.style.display = 'none'
     closebtn.style.display = 'flex'
     nav.style.width = '100%'
-    nav.style.transition = '.3s'
+    nav.style.transition = '.4s'
 })
 
 closebtn.addEventListener('click', function(){
@@ -24,6 +24,6 @@ closebtn.addEventListener('click', function(){
     closebtn.style.display = 'none'
     if(screen.width < 480){
         nav.style.width = '0%'
-        nav.style.transition = '0.3s'
+        nav.style.transition = '0.4s'
     }
 })
