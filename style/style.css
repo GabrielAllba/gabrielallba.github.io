@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'reg-popins';
-    src: url(/fonts/Poppins-Regular.ttf);
+    font-family:'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
 }
 @font-face {
-    font-family: 'extrabold popins';
-    src: url(/fonts/Poppins-ExtraBold.ttf);
+    font-family: 'Poppins-ExtraBold';
+    src: url(../fonts/Poppins-ExtraBold.ttf);
 }
 *{
     box-sizing: border-box;
@@ -12,7 +12,7 @@
     margin: 0;
 }
 html, body{
-    font-family: 'reg-popins';
+    font-family: 'Poppins-Regular';
 }
 header{
     color: white;
@@ -46,6 +46,7 @@ nav{
     overflow: hidden;
     z-index: 99;
     background-color: rgba(43, 43, 43, 0.582);
+    padding: 0 5px;
 }
 nav ul{
     display: flex;
@@ -62,6 +63,7 @@ nav ul li {
     border-radius: 15px;
     justify-content: flex-start;
     cursor: pointer;
+    margin: 5px;
 }
 
 nav ul li a{
@@ -112,7 +114,7 @@ section{
 }
 .profile-intro h1{
     font-size: 5rem;
-    font-family: 'extrabold popins';
+    font-family: 'Poppins-ExtraBold';
     letter-spacing: 2px;
     font-weight: 900;
 }
