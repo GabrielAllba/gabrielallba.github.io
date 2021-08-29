@@ -14,7 +14,7 @@ togglebtn.addEventListener('click', function(){
     togglebtn.style.display = 'none'
     closebtn.style.display = 'flex'
     nav.style.width = '100%'
-    nav.style.transition = '0.5s'
+    nav.style.transition = '.3s'
 })
 
 closebtn.addEventListener('click', function(){
