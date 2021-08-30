@@ -177,6 +177,7 @@ background: linear-gradient(to right, rgb(243, 45, 95)
 }
 .project-title p{
     max-width: 50%;
+    color: rgb(255, 255, 255);
 }
 .project-list{
     display: flex;
