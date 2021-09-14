@@ -40,6 +40,7 @@ nav{
 }
 nav ul{
     display: inline-block;
+    position: relative;
 }
 nav ul li{
     display: inline-block;
@@ -49,6 +50,30 @@ nav ul li a{
     text-decoration: none;
     color: black;
 }
+nav ul #li-home{
+    border: 1px solid white;
+    padding: 0;
+    transition: .3s;
+}
+nav ul #li-home a[href="#Home"] p{
+    background-color: rgb(0, 162, 255);
+    margin: 0;
+    padding: 10px;
+    color: white;
+    transition: .3s;
+}
+nav ul #li-home:hover a p{
+    transform: translate(-30%,30%);
+    transition: .3s;
+}
+nav ul #li-home:hover{
+    transition: .3s;
+    border: 1px solid grey;
+}
+nav ul #li-home:hover a p{
+
+}
+
 /* MAIN*/
 main{
     display: flex;
@@ -187,7 +212,6 @@ h3{
     header{
         justify-content: center;
         text-align: center;
-        background-color: rgba(65, 65, 65, 0.336);
     }
     header h1{
         display: none;
@@ -199,6 +223,7 @@ h3{
         justify-content: center;
         padding-top: 0rem;
         margin: 1px;
+        height: 100vh;
     }
     #Home h1{
         padding: 0;
@@ -217,7 +242,7 @@ h3{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-top: 8rem;
+        padding-top: 0rem;
         margin: 1px;
     }
     .about-container{
@@ -252,6 +277,8 @@ h3{
     }
     #profile-desc .skills p{
         padding-top: 0;
+        margin: 20px;
+        text-align: center;
     }
     .skills{
         padding-top: 1rem;
