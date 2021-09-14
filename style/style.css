@@ -113,6 +113,9 @@ main{
     cursor: pointer;
     transform: scale(1.1);
 }
+.social-media a{
+    text-decoration: none;
+}
 .fa-instagram:hover{
     color: rgb(255, 0, 98);
     transition: .3s;
