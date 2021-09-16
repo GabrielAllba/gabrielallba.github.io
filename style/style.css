@@ -213,6 +213,21 @@ h3{
     cursor: pointer;
 }
 
+/* FOOTER */
+footer{
+    margin: 10rem 2rem 2rem  2rem;
+    height: 5rem;
+}
+footer a{
+    text-decoration: none;
+    float: right;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    background-color: rgb(255, 0, 106);
+    padding: 20px;
+}
+
 @media only screen and (max-width: 720px){
     header{
         justify-content: center;
