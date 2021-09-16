@@ -18,12 +18,14 @@
 html, body{
     font-family: 'Poppins-Regular';
 }
+
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 4rem;
-    position: fixed;
+    position: sticky;
+    top: 0;
     background-color: white;
     width: 100%;
     z-index: 99;
@@ -31,9 +33,12 @@ header{
 header .fa-bars{
     display: none;
 }
-header h1{
-    padding-left: 3rem;
+div.header-tittle h1{
+    padding-left: 0rem;
+    text-align: center;
     font-family: 'Poppins-ExtraBold';
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 nav{
     margin-right: 2rem;
@@ -70,9 +75,6 @@ nav ul #li-home:hover{
     transition: .3s;
     border: 1px solid grey;
 }
-nav ul #li-home:hover a p{
-
-}
 
 /* MAIN*/
 main{
@@ -90,7 +92,7 @@ main{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-top: 6rem;
+    padding-top: 4rem;
     margin: 1px;
 }
 #Home h1{
@@ -131,7 +133,7 @@ main{
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-    padding-top: 8rem;
+    padding-top: 2rem;
     margin: 1px;
 }
 .about-container{
