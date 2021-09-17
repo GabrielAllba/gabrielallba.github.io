@@ -240,8 +240,8 @@ footer a{
         max-width: 100%;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
-        padding-top: 0rem;
+        justify-content: flex-end;
+        padding-top: 7rem;
         margin: 1px;
         height: 100vh;
     }
